@@ -1,0 +1,19 @@
+Home Screen.
+-User should be able to login or register.
+*****(DONE)*****
+
+Login Screen.
+-User should be able to enter login valid login details and process if authorised.
+-User should have clear error messaging if invalid credentials are entered.
+-User should have the option to register instead from this page.
+-User information should be stored using proper authentication and security.
+*****(DONE)*****
+
+Register screeen.
+-User should be able to enter valid register credentials and proceed to login page.
+-User should have clear error messaging if invalid credentials are entered.
+*****(DONE)*****
+-User should have the option to login instead from this page.
+
+
+

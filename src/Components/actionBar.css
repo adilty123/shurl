@@ -1,0 +1,41 @@
+.actionBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-bottom: solid;
+    padding-bottom: 10px; /* Adjust as needed */
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(98, 153, 255);
+}
+
+.heading{
+    color: white;
+}
+
+.left-section {
+    flex: 1; /* Take up all available space */
+}
+
+.right-section {
+    display: flex; /* Nested flex container for email and button */
+    align-items: center;
+}
+
+.inputButton {
+    /* Add your button styles here */
+    margin-left: 10px; /* Adjust as needed */
+}
+
+
+input[type="button"] {
+    border: none;
+    background: rgb(0, 89, 255);
+    color: white;
+    padding: 12px 24px;
+    margin: 8px;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}

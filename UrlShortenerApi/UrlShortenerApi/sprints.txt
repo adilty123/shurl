@@ -1,0 +1,16 @@
+﻿Configure ASP.NET core identity framework for user aucthentication.
+-Tables automatically create in sql data base.
+
+Create database to store URLS.
+-Id.
+-UserId(EMAIL).
+-Date/time created.
+-Original Url.
+-Shortened Url.
+
+Scafhold URLS controller.
+
+Add custom controller to find url that maches code passed in as param.
+
+Use response to redirect to original link.
+
